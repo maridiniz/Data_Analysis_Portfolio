@@ -148,3 +148,5 @@ Com essa análise simples conseguimos responder algumas respostas:
   Biscoe e Dream respectivamente
 
   Quanto aos pinguíns  Adelie, são observados em todas as três ilhas.
+
+  ![](./assets/linkedin_icon.png)  [Linkedin](https:/www.linkedin.com/in/marianadiniz93)
