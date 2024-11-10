@@ -150,7 +150,7 @@ Com essa análise simples conseguimos responder algumas respostas:
   Quanto aos pinguíns  Adelie, são observados em todas as três ilhas.
 
 
-![](/Users/maria/Documents/R_Projects/image/linkedin_icon.png)  [Meu Linkedin](https://www.linkedin.com/in/marianadiniz93)  ![](/Users/maria/Documents/R_Projects/image/github_icon.png) [GitHub](https://github.com/maridiniz)
+![](/Users/maria/Documents/R_Projects/image/linkedin_icon.png)  [Meu Linkedin](https://www.linkedin.com/in/marianadiniz93)
 
 
 
