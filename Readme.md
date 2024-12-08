@@ -3,3 +3,6 @@
 
 ## Introdução
 
+Olá, bem vindos ao meu portfolio! 
+
+Sou uma entusiasta de dados  
