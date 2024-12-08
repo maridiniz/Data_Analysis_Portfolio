@@ -48,5 +48,5 @@ Ciência de Dados - 2024 a 2026
 ## Certificações
 Compartilhar nossos projetos é uma ótima maneira de demonstar nossas habilidades, porém acredito que mostar que estamos buscando melhorias, 
 evoluir em nossas carreiras também é muito válido, e compartilhar nossas certificações acrescentam muito nesse aspecto.
-[Google data analytics profissional certificate](https://coursera.org/share/9ee203a4c3b176da55d9575fd3be594f)
-[Google AI Essentials](https://coursera.org/share/166a960d754d8a775c30a6a815721d68)
+- [Google data analytics profissional certificate](https://coursera.org/share/9ee203a4c3b176da55d9575fd3be594f) (Nov 2024) (Coursera - Google)
+- [Google AI Essentials](https://coursera.org/share/166a960d754d8a775c30a6a815721d68) (Nov 2024) (Coursera - Google)
