@@ -1,149 +1,58 @@
-# Palmer Penguins: Análise prática
+# Análise de Dados - Portfolio
 
 
 ## Introdução
 
+Olá, sejam bem-vindos ao meu portfolio! 
 
-Neste projeto, descrevo difenças morfológicas entre os pinguíns fêmeas e machos das espécies Gentoo, Chistrap e
-Adelie. Outra percepção que demosntro é a variedade destas espécies nas ilhas ao redor do arqupélogo de Palmer, localizado na Antártica.
+Sou uma entusiasta de dados com forte capacidade analítica e pensamento crítico. Tenho um background em dados como analista de prevenção
+a fraude, onde tive a oportunidade de adquirir e desenvolver um forte fundamento em dados e usá-los para descobrir insights significativos, 
+assim como um olhar mais crítico, habilidades investigativas, pensamento estruturado e análítico. 
 
-Utilizei o banco de dados pinguíns de Palmer que reúne várias informações sobre
-dismorfismo sexual, variabilidade ambiental e medidas de tamanhos estruturais entre
-os pinguíns machos e fêmeas das três espécies citadas acima. Os dados
-foram coletados e compartilhados pela [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) e [Palmer
-Station Antarctica LTER](https://pallter.marine.rutgers.edu/).
+Estou a caminho de concluir minha graduação em ciência de dados para enriquecer conhecimento
+e adquirir novas skills, a fim de me tornar um profisional ímpar. Por esse motivo criei este portfolio,
+com intúito de compartilhar meu trabalho e assim demonstrar minhas habilidade, e de alguma maneira de medir minha
+evolução ao longo da minha carreira em dados.
 
+## índice
 
-## Preparando meu ambiente
+- [Introdução]()
 
-Nota: Começo Importando o pacote `palmerpenguins` e `tidyverse` que para esse caso,
-o conjunto de pacotes `Tidyverse` é mais que necessário para o que preciso para
-concluir este trabalho.
-
-```{r}
-library(tidyverse)
-library(palmerpenguins)
-```
-
-## Correlação entre peso corporal e o tamanho da nadadeira entre as espécies
+- [Projetos](https://github.com/maridiniz/Data_Analysis_Portfolio/tree/039432318eb01b615c38426dc2d86f81528744c3/projects)
+  - R
+     - [Análise prática dos pinguins de Palmer](https://github.com/maridiniz/Data_Analysis_Portfolio/blob/dcd3c0d7175e27b75411d516e288f87612142af0/projects/pinguins.md)
 
 
-Para evitar quaisquer problemas com valores vazios no dataset, vamos começar removendo-os
-e assim prosseguir com nossa análise.
+## Projetos
+Nesta seção eu listo e descrevo brevemente os projetos e as tecnologias utilizadas para resolução dos casos.
 
 
-```{r}
-new_penguins <- penguins %>%
-  drop_na()
-head(new_penguins)
-```
+### Análise prática sobre os pinguíns de Palmer
+**Código** [`Pinguíns de Palmer`](https://github.com/maridiniz/Data_Analysis_Portfolio/blob/dcd3c0d7175e27b75411d516e288f87612142af0/projects/pinguins.md)
 
-Agora que removemos todos os valores vazios, vamos prosseguir com nossa análise.
+**Objetivo** Descrever as diferenças morfológicas dos pinguíns machos e fêmeas e a variabilidade das espécies no ambiente.
 
+**Descrição** O banco de dados utilizado no projeto contém informações sobre três espécies de pinguíns que vivem nos arredores da ilha de palmer, como:
+sexo, tamanho de nadadeira, comprimento e profundidade do bico, massa corporal e as ilhas onde essas espécies vivem.
 
-```{r}
-ggplot2::ggplot(new_penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
-  geom_point(aes(colour = species, shape = species)) +
-  geom_smooth(method = "loess") +
-  xlab("Tamanho da nadadeira mm") +
-  ylab("Massa corpórea g") +
-  labs(title = "Relação entre tamanho corporal e tamanho de nadadeira",
-       colour = "Espécie", shape = "Espécie")
+**Habilidade** Limpeza, transformação e visualização de dados, análise exploratória de dados.
 
-```
+**Tecnologia** R, dplyr, ggplot2.
 
 
-Nesse gráfico conseguimos perceber facilmente a diferença entre as  3 espécies
-considerenado peso corporal e o tamanho das nadadeiras. Os Gentoo possuem nadadeiras
-maiores e também maior peso corporal.
+**Resultado** Fica muito claro e evidente o dismorfismo sexual dos pinguíns fêmeas em relação aos machos, não apenas sobre o peso corporal, 
+mas também o tamanho dos bicos e nadadeiras. Outra constatação é a frequência das espécies em determinadas ilhas; 
+As espécies Gentoo e Chistrap são encontrados com mais frequência nas ilhas: Biscoe e Dream respectivamente, enquanto os pinguíns Adelie, são observados em todas as três ilhas.
 
 
-## Diferença do dismorfismo sexual entre as espécies.
+## Formação Acadêmica
+Universidade Nove de Julho - UNINOVE:
+Ciência de Dados - 2024 a 2026
 
 
-Vamos identificar as diferenças morfológicas entre os sexos entre as espécies.
+## Certificações
+Compartilhar nossos projetos é uma ótima maneira de demonstar nossas habilidades, porém acredito que mostar que estamos buscando melhorias, 
+evoluir em nossas carreiras também é muito válido, e compartilhar nossas certificações acrescentam muito nesse aspecto.
+- [Google data analytics profissional certificate](https://www.credly.com/badges/69c88ebf-7703-4fbb-896f-eb8dc1c7a757/public_url) (Nov 2024) (Coursera - Google)
+- [Google AI Essentials](https://www.credly.com/badges/ee309f0a-0bb2-4b03-a50c-d08f435326b9/public_url) (Nov 2024) (Coursera - Google)
 
-
-```{r}
-ggplot2::ggplot(new_penguins, aes(x = species, y = body_mass_g)) +
-  geom_violin(aes(fill = species)) +
-  facet_wrap(~sex) +
-  xlab("Espécie") +
-  ylab("Massa corporal g") +
-  labs(title = "Diferença corpórea de macho e fêmea",
-       fill = "Espécie")
-```
-
-
-O que conseguemios ver aqui nessa viz é que os Gentoo são maiores, tanto machos
-quanto fêmeas, e as as outras espécies têm tamanhos bem semelhantes. Porém, independente
-da espécie, todas as fêmeas são menores que os machos.
-
-
-```{r}
-ggplot2::ggplot(new_penguins, aes(x = bill_length_mm, y = bill_depth_mm)) +
-  geom_boxplot(aes(fill = species)) +
-  facet_wrap(~sex) +
-  xlab("Comprimento do bico mm") +
-  ylab("Largura do bico mm") +
-  labs(title = "Dismorfismo sexual de largura e comprimento de bico entre macho e fêmea",
-       fill = "Espécie")
-```
-
-
-Novamente o que percebemos nesse gráfico é a diferença de machos e fêmeas, independente da espécie;
-As fêmeas possuem bicos mais curtos e menos largos em relação aos machos. Agora, é perceptível que
-os Chinstrap são os que mais possuem longos bicos e mais largos também , seguidos pelos Gentoo que
-apesar de bicos longos, eles não são tão largos. Em contrapartida, os Adelie, exibem largos bicos e
-com pouco comprimento.
-
-
-## Variabilidade no ambiente
-
-Chegamos agora na análise sobre os locais onde encontramos uma certa frequeências
-das espécies.
-
-
-```{r}
-ggplot2::ggplot(new_penguins, aes(x = island, fill = species)) +
-  geom_bar(position = "fill") +
-  xlab("Ilha") +
-  ylab("Número de pinguíns") +
-  labs(title = "Variedade do ambiente",
-       fill = "Espécie")
-
-```
-
-
-Com relação a frequência das espécies no ambiente do arquipélago de Palmer o que
-percebemos? o que conseguimos tirar como conclusão é que as espécies Gentoo e Chistrap
-tem uma frequência mais acentuada em ilhas específicas; Na ilha Biscoe é o local
-onde localizamos as espécies Gentoo, e os Chistrap na ilha Dream, em contra partida,
-os Adelie apresentam uma frequência em todas as três ilhas.
-
-
-## Conclusão
-
-
-Com essa análise simples conseguimos responder algumas respostas:
-
-* Existe uma diferença morfológica entre machos e fêmeas independente da espécie:
-
-  Em ambas as espécies: Adelie, gentoo e Chistrap os machos são maiores em peso
-  corporal, bicos mais largos e compridos.
-
-* Diferenças quanto a estrutura corporal entre as 3 espécies analisadas:
-
-  Identificamos que a espécie Gentoo são maiores em peso corporal em relação
-  aos Chistrap e Adelie.
-
-  Outra percepção é que quanto maior o pinguin, maior é sua nadadeira.
-
-* A frequência e distribuição das espécies nas ilhas Dream, Torgersen e Biscoe.
-
-  As espécies Gentoo e Chistrap são encontrados com mais frequência nas ilhas:
-  Biscoe e Dream respectivamente
-
-  Quanto aos pinguíns  Adelie, são observados em todas as três ilhas.
-
-  ![](./assets/linkedin_icon.png)  [Linkedin](https:/www.linkedin.com/in/marianadiniz93)
