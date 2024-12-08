@@ -22,6 +22,9 @@ evolução ao longo da minha carreira em dados.
   - R
      - [Análise prática dos pinguins de Palmer](https://github.com/maridiniz/Data_Analysis_Portfolio/blob/dcd3c0d7175e27b75411d516e288f87612142af0/projects/pinguins.md)
 
+- [Formação acadêmica](https://github.com/maridiniz/Data_Analysis_Portfolio/tree/master?tab=readme-ov-file#forma%C3%A7%C3%A3o-acad%C3%AAmica)
+- [Certificações](https://github.com/maridiniz/Data_Analysis_Portfolio/tree/master?tab=readme-ov-file#certifica%C3%A7%C3%B5es)
+- [Redes](https://github.com/maridiniz/Data_Analysis_Portfolio/tree/master?tab=readme-ov-file#redes)
 
 ## Projetos
 Nesta seção eu listo e descrevo brevemente os projetos e as tecnologias utilizadas para resolução dos casos.
