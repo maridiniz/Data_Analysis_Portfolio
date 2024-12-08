@@ -17,3 +17,6 @@ evolução ao longo da minha carreira em dados.
 ## índice
 
 [Introdução]()
+
+[Projetos](https://github.com/maridiniz/Data_Analysis_Portfolio/tree/039432318eb01b615c38426dc2d86f81528744c3/projects)
+- Projetos em R
