@@ -16,9 +16,9 @@ evolução ao longo da minha carreira em dados.
 
 ## índice
 
-- [Introdução]()
+- [Introdução](https://github.com/maridiniz/Data_Analysis_Portfolio?tab=readme-ov-file#introdu%C3%A7%C3%A3o)
 
-- [Projetos](https://github.com/maridiniz/Data_Analysis_Portfolio/tree/039432318eb01b615c38426dc2d86f81528744c3/projects)
+- [Projetos](https://github.com/maridiniz/Data_Analysis_Portfolio?tab=readme-ov-file#projetos)
   - R
      - [Análise prática dos pinguins de Palmer](https://github.com/maridiniz/Data_Analysis_Portfolio/blob/dcd3c0d7175e27b75411d516e288f87612142af0/projects/pinguins.md)
 
