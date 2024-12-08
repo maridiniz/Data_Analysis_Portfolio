@@ -20,4 +20,4 @@ evolução ao longo da minha carreira em dados.
 
 [Projetos](https://github.com/maridiniz/Data_Analysis_Portfolio/tree/039432318eb01b615c38426dc2d86f81528744c3/projects)
 - Projetos em R
-  -[Análise prática dos pinguins de Palmer](https://github.com/maridiniz/Data_Analysis_Portfolio/blob/66d8a59bc5f43f018cab6408d85e78662a2ae583/projects/pinguins.md)
+  -[Análise prática dos pinguins de Palmer](https://github.com/maridiniz/Data_Analysis_Portfolio#pinguins.md)
