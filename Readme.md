@@ -56,3 +56,7 @@ evoluir em nossas carreiras também é muito válido, e compartilhar nossas cert
 - [Google data analytics profissional certificate](https://www.credly.com/badges/69c88ebf-7703-4fbb-896f-eb8dc1c7a757/public_url) (Nov 2024) (Coursera - Google)
 - [Google AI Essentials](https://www.credly.com/badges/ee309f0a-0bb2-4b03-a50c-d08f435326b9/public_url) (Nov 2024) (Coursera - Google)
 
+
+## Redes
+![](image/linkedin_icon.png)
+
