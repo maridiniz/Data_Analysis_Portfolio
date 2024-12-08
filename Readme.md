@@ -59,6 +59,5 @@ evoluir em nossas carreiras também é muito válido, e compartilhar nossas cert
 
 
 ## Redes
-[![Linkedin logo](image/linkedin_icon.png)](https://www.linkedin.com/in/marianadiniz93)      
-[![Kaggle](image/kaggle.png)](https://www.kaggle.com/marianadiniz)
+[![Linkedin logo](image/linkedin_icon.png)](https://www.linkedin.com/in/marianadiniz93)      [![Kaggle](image/kaggle.png)](https://www.kaggle.com/marianadiniz)
 
