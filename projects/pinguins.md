@@ -4,21 +4,20 @@
 ## Introdução
 
 
-Neste projeto, descrevo difenças morfológicas entre os pinguíns fêmeas e machos das espécies Gentoo, Chistrap e
-Adelie. Outra percepção que demosntro é a variedade destas espécies nas ilhas ao redor do arqupélogo de Palmer, localizado na Antártica.
+Este projeto tem como objetivo explicitar as diferenças de dismorfismo sexual entre os pinguíns
+machos e fêmeas de três espécies, Gentoo, Chinstrap e Adelie. Assim como também a frquência deles
+nas ilhas do arquipélago de Palmer na Antártica.
 
-Utilizei o banco de dados pinguíns de Palmer que reúne várias informações sobre
-dismorfismo sexual, variabilidade ambiental e medidas de tamanhos estruturais entre
-os pinguíns machos e fêmeas das três espécies citadas acima. Os dados
-foram coletados e compartilhados pela [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) e [Palmer
+Utilizei o banco de dados pinguíns de Palmer que reúne várias informações sobreo sexo, as ilhas, 
+tamanhos de nadadeira, massa corporal, comprimento e profundidade de bico. Os dados foram coletados 
+e compartilhados pela [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) e [Palmer
 Station Antarctica LTER](https://pallter.marine.rutgers.edu/).
 
 
 ## Preparando meu ambiente
 
-Nota: Começo Importando o pacote `palmerpenguins` e `tidyverse` que para esse caso,
-o conjunto de pacotes `Tidyverse` é mais que necessário para o que preciso para
-concluir este trabalho.
+Começo Importando o pacote `palmerpenguins` e o meta pacote `tidyverse` que é uma coleção de pacotes,
+que para este trabalho já será mais que suficiente.
 
 ```{r}
 library(tidyverse)
