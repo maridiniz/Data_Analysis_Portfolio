@@ -5,7 +5,7 @@
 
 Olá, sejam bem-vindos ao meu portfolio! 
 
-Sou uma entusiasta de dados com forte capacidade analítica e pensamento crítico. Tenho um background em dados como analista de prevenção
+Sou profissional de dados com forte capacidade analítica e pensamento crítico. Tenho um background em dados como analista de prevenção
 a fraude, onde tive a oportunidade de adquirir e desenvolver um forte fundamento em dados e usá-los para descobrir insights significativos, 
 assim como um olhar mais crítico, habilidades investigativas, pensamento estruturado e análítico. 
 
