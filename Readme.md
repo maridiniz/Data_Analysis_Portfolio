@@ -40,3 +40,13 @@ sexo, tamanho de nadadeira, comprimento e profundidade do bico, massa corporal e
 **Resultado** Fica muito claro e evidente o dismorfismo sexual dos pinguíns fêmeas em relação aos machos, não apenas sobre o peso corporal, 
 mas também o tamanho dos bicos e nadadeiras. Outra constatação é a frequência das espécies em determinadas ilhas; 
 As espécies Gentoo e Chistrap são encontrados com mais frequência nas ilhas: Biscoe e Dream respectivamente, enquanto os pinguíns Adelie, são observados em todas as três ilhas.
+
+## Formação Acadêmica
+Universidade Nove de Julho - UNINOVE:
+Ciência de Dados - 2024 a 2026
+
+## Certificações
+Compartilhar nossos projetos é uma ótima maneira de demonstar nossas habilidades, porém acredito que mostar que estamos buscando melhorias, 
+evoluir em nossas carreiras também é muito válido, e compartilhar nossas certificações acrescentam muito nesse aspecto.
+[Google data analytics profissional certificate](https://coursera.org/share/9ee203a4c3b176da55d9575fd3be594f)
+[Google AI Essentials](https://coursera.org/share/166a960d754d8a775c30a6a815721d68)
